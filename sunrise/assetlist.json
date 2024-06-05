@@ -3,7 +3,7 @@
   "chain_name": "sunrise",
   "assets": [
     {
-      "description": "The non-transferable governance token of the Sunrise blockchain.",
+      "description": "The native token of the Sunrise network for staking. This token is non transferrable. This token can be retrieved by providing liquidity.",
       "denom_units": [
         {
           "denom": "uvrise",
@@ -35,7 +35,7 @@
       }
     },
     {
-      "description": "The transferable fee token of the Sunrise blockchain. ",
+      "description": "The native token of the Sunrise network for fees.",
       "denom_units": [
         {
           "denom": "urise",
