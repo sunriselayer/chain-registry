@@ -16,7 +16,7 @@
         }
       ],
       "base": "uvrise",
-      "name": "VRISE",
+      "name": "Sunrise VRISE",
       "display": "vrise",
       "symbol": "VRISE",
       "logo_URIs": {
@@ -48,7 +48,7 @@
         }
       ],
       "base": "urise",
-      "name": "RISE",
+      "name": "Sunrise RISE",
       "display": "rise",
       "symbol": "RISE",
       "logo_URIs": {
