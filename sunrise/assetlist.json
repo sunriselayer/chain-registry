@@ -8,7 +8,7 @@
         {
           "denom": "uvrise",
           "exponent": 0,
-          "aliases": ["microVRISE","microvrise"]
+          "aliases": ["microvRISE","microvrise"]
         },
         {
           "denom": "vrise",
@@ -16,9 +16,9 @@
         }
       ],
       "base": "uvrise",
-      "name": "Sunrise VRISE",
+      "name": "Sunrise vRISE",
       "display": "vrise",
-      "symbol": "VRISE",
+      "symbol": "vRISE",
       "logo_URIs": {
         "svg": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.svg",
         "png": "https://raw.githubusercontent.com/cosmos/chain-registry/master/sunrise/images/vrise.png"
