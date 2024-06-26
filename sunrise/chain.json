@@ -1,7 +1,7 @@
 {
   "$schema": "../chain.schema.json",
   "chain_name": "sunrise",
-  "status": "live",
+  "status": "upcoming",
   "network_type": "mainnet",
   "website": "https://sunriselayer.io/",
   "pretty_name": "Sunrise",
@@ -34,10 +34,10 @@
   },
   "codebase": {
     "git_repo": "https://github.com/sunriselayer/sunrise",
-    "recommended_version": "v0.0.8",
-    "compatible_versions": ["v0.0.8"],
+    "recommended_version": "v0.1.1",
+    "compatible_versions": ["v0.1.1"],
     "binaries": {
-      "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.0.8/sunrised"
+      "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.1.1/sunrised"
     },
     "cosmos_sdk_version": "0.50.2",
     "consensus": {
@@ -67,6 +67,21 @@
         "compatible_versions": ["v0.0.8"],
         "binaries": {
           "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.0.8/sunrised"
+        },
+        "cosmos_sdk_version": "0.50.2",
+        "consensus": {
+          "type": "cometbft",
+          "version": "sunriselayer/sunrise-core v0.0.5-cmt-v0.38.2"
+        },
+        "ibc_go_version": "8.0.0",
+        "ics_enabled": ["ics20-1"]
+      },
+      {
+        "name": "v0.1.1",
+        "recommended_version": "v0.1.1",
+        "compatible_versions": ["v0.1.1"],
+        "binaries": {
+          "linux/amd64": "https://github.com/sunriselayer/sunrise/releases/download/v0.1.1/sunrised"
         },
         "cosmos_sdk_version": "0.50.2",
         "consensus": {
